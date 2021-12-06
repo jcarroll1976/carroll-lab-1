@@ -1,0 +1,125 @@
+body {
+    background-color: #f9fafc;
+    color: #69696a;
+    font-family: "Open Sans",sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #69696a;
+}
+
+button {
+  background-color: #000;
+  border-radius: 8px;
+  color:#FFF;
+  font-size: 14px;
+  width: 70%;
+  margin: 0 auto;
+}
+p {
+  border-left: 3px solid #69696a;
+  padding-left: 3px;
+}
+span {
+    display:block;
+}
+
+.parent-container {
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.footer-container {
+  display:flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  background-color: rgba(247, 193, 162, 0.7);
+}
+
+.link-navigation-menu {
+  margin-left: auto;
+}
+
+.link-span {
+  display: inline;
+  padding:10px;
+}
+
+.logo-text {
+  color:#000;
+}
+
+@media only screen and (min-width:768px) {
+
+  .parent-container {
+    display:flex;
+    width:100%;
+    align-items:center;
+    flex-direction:row;
+    justify-content: flex-start;
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+
+.about-container {
+  display:flex;
+  align-items: center;
+}
+  .navigation-menu {
+    display: inline;
+    margin-left: auto;
+    padding: 10px;
+  }
+  span {
+    display: inline;
+  }
+
+.lorem-ipsum-div {
+  flex:1;
+}
+.circles {
+  flex: 1;
+  height:550px;
+  width: 150px;
+  background-color: #f9fafc;
+}
+  #large-circle {
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    background-color:  rgba(247, 136, 167, 0.6);
+    position: relative;
+    top: 140px;
+    left:400px;
+  }
+
+  #medium-circle {
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    top:50px;
+    left:530px;
+    position:relative;
+    background-color: rgba(247, 193, 162, 0.7);
+  }
+
+  #small-circle {
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    position: relative;
+    bottom: 170px;
+    left:560px;
+    background-color: rgba(207, 130, 213, 0.6);
+
+  }
+  #hire-button {
+    width:5%;
+  }
+}
